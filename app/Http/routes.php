@@ -19,8 +19,8 @@ Route::get('/a', function () {
     return ('welcome');
 });
 
-Route::get('jj', function () {
-    return ('welcome a jj');
+Route::get('jsj', function () {
+    return ('welcome a Holaaaa');
 });
 
 
