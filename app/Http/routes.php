@@ -14,6 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('sellos', 'SellosController@index');
+Route::get('sellos', 'SellosController@store');
+Route::get('sellos', 'SellosController@create');
+Route::get('sellos', 'SellosController@edit');
+Route::get('sellos', 'SellosController@update');
+Route::get('sellos', 'SellosController@distroy');
+Route::get('sellos', 'SellosController@show');
 
 
 
