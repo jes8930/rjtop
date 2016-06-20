@@ -15,13 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/a', function () {
-    return ('welcome');
-});
 
-Route::get('jsj', function () {
-    return ('welcome a Holaaaa');
-});
 
 
 
