@@ -15,12 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('sellos', 'SellosController@index');
-Route::get('sellos', 'SellosController@store');
-Route::get('sellos', 'SellosController@create');
-Route::get('sellos', 'SellosController@edit');
-Route::get('sellos', 'SellosController@update');
-Route::get('sellos', 'SellosController@distroy');
-Route::get('sellos', 'SellosController@show');
+Route::get('sellos/store', 'SellosController@store');
+Route::get('sellos/create', 'SellosController@create');
+Route::get('sellos/edit', 'SellosController@edit');
+Route::get('sellos/update', 'SellosController@update');
+Route::get('sellos/destroy', 'SellosController@destroy');
+Route::get('sellos/show', 'SellosController@show');
 
 
 
